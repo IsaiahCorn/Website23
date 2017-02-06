@@ -5,6 +5,12 @@
 	  <p style="font-size:30px;">.</p>
 	  <p style="font-size:45px;">.</p>
   </head>
+	- @icons = ['icon-reorder','icon-th-large','icon-bar-chart','icon-tasks','icon-bell','icon-archive','icon-comment','icon-sitemap','icon-thumbs-up','icon-tumblr']
+%ul
+  - @icons.each do |icon|
+    %li
+      %a.list-item{:href=>""}
+        %i{:class=>"#{icon}"}
 
 <body background="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRG9FGGn1B4Plr_LSosy6yMFz-yS5eH3ecHGmiGOs20EjBiq21s6w">
     <div style="text-color: white; text-align: center;">
