@@ -1,4 +1,5 @@
- 
+ body { background-color: #141418; overflow: hidden; }
+canvas { position: relative; }
 a href{
     text-decoration: underline wavy red;
     text-decoration: none
